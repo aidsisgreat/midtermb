@@ -53,7 +53,7 @@ a{
     color: red;
     text-decoration: none;
 }
-a.hover{
+a:hover{
     color: green;
 }
 .structural header{
