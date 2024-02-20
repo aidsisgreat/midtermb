@@ -1,0 +1,70 @@
+body{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    border: 5px solid black;
+    font: normal,small-caps,13px,12px,12px,'Courier New', Courier, monospace;
+    
+    
+}
+.structural{
+    margin: 10px;
+    padding: 10px;
+}
+.structural h1{
+    color: red;
+    font-size: medium;
+}
+.structural h2{
+    color: blueviolet;
+    font-size: large;
+}
+main{
+    height: 70vh;
+}
+img{
+    border: 12px solid black;
+    width: 90%;
+    height: 80%;
+}
+figure{
+    background-color: rgb(193, 211, 61);
+    width: 45%;
+    height: 60%;
+    margin: auto;
+    padding: 10px;   
+}
+#img1{
+    float: left;
+}
+#img2{
+    float: right;
+}
+section{
+    clear: both;
+}
+figcaption{
+    font-weight: 100px;
+    size: 5px;
+    color: blue;
+    padding: 5px;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+a.hover{
+    color: green;
+}
+.structural header{
+    background-color: yellow;
+    text-align: center;
+}
+.structural footer{
+    background-color: green;
+    text-align: center;
+}
+ul{
+    list-style: square;
+    line-height: 25px;
+}
